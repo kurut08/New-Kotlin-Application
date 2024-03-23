@@ -3,4 +3,7 @@
     <string name="draw">Drawing</string>
     <string name="camera">Camera</string>
     <string name="gallery">Gallery</string>
+    <string name="music">Music\n</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="stop">Stop</string>
 </resources>
