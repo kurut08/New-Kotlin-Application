@@ -77,7 +77,7 @@ public class MusicActivity extends AppCompatActivity implements MediaController.
             } while (musicCursor.moveToNext());
             musicCursor.close();
         } else {
-            Log.d("MyTag", "The song list is empty");
+            Log.d("NKT", "Pusta lista!");
         }
     }
     private void displaySongs() {

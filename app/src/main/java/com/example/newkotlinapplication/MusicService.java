@@ -182,7 +182,7 @@ public class MusicService extends Service implements MediaPlayer.OnPreparedListe
                 .setTicker(songTitle)
                 .build();
 
-        createNotificationChannel(channelId, "My Music Player");
+        createNotificationChannel(channelId, "NKA Music Player");
         startForeground(notifyId, notification);
     }
     public void createNotificationChannel(String channelId, String channelName) {
